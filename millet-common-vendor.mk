@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-VENDOR_PATH=vendor/samsung/s3ve3g-common
+VENDOR_PATH=vendor/samsung/millet-common
 
 # include blob-finder
-include vendor/samsung/s3ve3g-common/find-vendor-blobs.mk
+include vendor/samsung/millet-common/find-vendor-blobs.mk
 
 # common proprietary blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/s3ve3g-common/proprietary)
+PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/millet-common/proprietary)

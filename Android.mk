@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),s3ve3g)
+ifeq ($(TARGET_DEVICE),millet)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
